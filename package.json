@@ -1,0 +1,29 @@
+{
+  "name": "anthropic-credit-monitor",
+  "version": "0.1.0",
+  "description": "Proactive Anthropic API credit and health monitor",
+  "type": "module",
+  "bin": {
+    "anthropic-credit-monitor": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/tsc -p tsconfig.build.json",
+    "dev": "node_modules/.bin/tsc -p tsconfig.build.json --watch",
+    "test": "node_modules/.bin/vitest run",
+    "test:watch": "node_modules/.bin/vitest",
+    "lint": "node_modules/.bin/tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
