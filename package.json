@@ -1,5 +1,5 @@
 {
-  "name": "anthropic-credit-monitor",
+  "name": "meshvibe-anthropic-credit-monitor",
   "version": "0.1.0",
   "description": "Proactive Anthropic API credit and health monitor",
   "type": "module",
