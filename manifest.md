@@ -2,6 +2,7 @@
 name: anthropic-credit-monitor
 description: Proactive Anthropic API credit and health monitor
 cli: anthropic-credit-monitor
+data_dir: none
 version: 0.1.0
 health_check: anthropic-credit-monitor status
 depends_on:
